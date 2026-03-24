@@ -1,0 +1,53 @@
+@keyframes drawLine {
+  from {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.animate-draw {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: drawLine 2s ease forwards;
+}
+
+/* Bar Grow Animation */
+@keyframes growBar {
+  from {
+    height: 0;
+  }
+  to {
+    height: inherit;
+  }
+}
+
+.animate-grow {
+  animation: growBar 0.8s ease-out forwards;
+}
+
+/* Floating Badges */
+@keyframes growBar {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+.animate-grow {
+  transform-origin: bottom;
+  animation: growBar 0.8s ease-out forwards;
+}
+
+@keyframes growBar {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
