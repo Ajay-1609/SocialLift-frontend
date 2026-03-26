@@ -1,3 +1,4 @@
+/* ================= DRAW LINE ================= */
 @keyframes drawLine {
   from {
     stroke-dasharray: 1000;
@@ -14,17 +15,7 @@
   animation: drawLine 2s ease forwards;
 }
 
-/* Bar Grow Animation */
-@keyframes growBar {
-  from {
-    height: 0;
-  }
-  to {
-    height: inherit;
-  }
-}
-
-/* Floating Badges */
+/* ================= BAR GROW (FIXED) ================= */
 @keyframes growBar {
   from {
     transform: scaleY(0);
@@ -39,15 +30,6 @@
   animation: growBar 0.8s ease-out forwards;
 }
 
-@keyframes growBar {
-  from {
-    transform: scaleY(0);
-  }
-  to {
-    transform: scaleY(1);
-  }
-}
-
 /* ================= SPINNER ================= */
 .spinner {
   width: 18px;
@@ -58,9 +40,13 @@
   animation: spin 0.8s linear infinite;
 }
 
-/* Smooth Spin */
 @keyframes spin {
   to {
     transform: rotate(360deg);
   }
+}
+
+/* ================= GLOBAL FIX ================= */
+body {
+  overflow-x: hidden;
 }

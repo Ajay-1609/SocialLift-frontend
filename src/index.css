@@ -1,6 +1,7 @@
 @tailwind base;
-@tailwindi components;
+@tailwind components;
 @tailwind utilities;
+
 html {
   scroll-behavior: smooth;
 }
