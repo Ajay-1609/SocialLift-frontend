@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import FadeInSection from "../components/FadeInSection";
-import { FaEnvelope, FaMapMarkerAlt, FaPhone, FaInstagram } from "react-icons/fa";
+import { FaEnvelope, FaMapMarkerAlt, FaPhone, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { Helmet } from "react-helmet-async";
 
 function Contact() {
@@ -144,9 +144,13 @@ function Contact() {
 
                 <div className="flex items-center gap-4">
                   <FaPhone className="text-primary text-lg" />
-                  <span>+91 8007914562</span>
+                  <span>+91 9021737975</span>
                 </div>
 
+                <div className="flex items-center gap-4">
+                  <FaWhatsapp className="text-primary text-lg" />
+                  <span>+91 8928233535</span>
+                </div>
                 <a
                   href="https://www.instagram.com/_sociallift.co?igsh=Ym9wZXl2NTd1ZHYz"
                   target="_blank"
