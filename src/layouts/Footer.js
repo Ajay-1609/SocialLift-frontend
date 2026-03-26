@@ -62,28 +62,6 @@ function Footer() {
               <FaInstagram />
             </a>
 
-            {/* Facebook (Replaced LinkedIn) */}
-            {/* <a
-              href="https://facebook.com/YOUR_FACEBOOK_PAGE"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-black transition cursor-pointer"
-            >
-              <FaFacebookF />
-            </a> */}
-
-            {/* Twitter (Temporarily Disabled) */}
-            {/*
-  <a
-    href="https://twitter.com/YOUR_TWITTER"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-black transition cursor-pointer"
-  >
-    <FaTwitter />
-  </a>
-  */}
-
           </div>
         </div>
 
