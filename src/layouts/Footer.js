@@ -48,7 +48,7 @@ function Footer() {
         <div>
           <h4 className="text-white font-semibold mb-4">Contact</h4>
           <p className="mb-3">teamsocialliftco@gmail.com</p>
-          <p className="mb-6">+91 8007914562</p>
+          <p className="mb-6">+91 9021737975</p>
 
           <div className="flex gap-4">
 
