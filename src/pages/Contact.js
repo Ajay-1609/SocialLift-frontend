@@ -87,7 +87,7 @@ function Contact() {
     <>
       <Helmet>
         <title>Contact SocialLift | Digital Marketing Agency</title>
-
+        <meta property="og:url" content="https://sociallift.co.in" />
         <meta
           name="description"
           content="Contact SocialLift digital marketing agency for social media marketing, SEO, paid ads, and branding services. Let's grow your business."

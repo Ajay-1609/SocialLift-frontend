@@ -69,7 +69,7 @@ function Services() {
           content="Discover SocialLift services designed to grow your brand through SEO, paid ads, social media marketing and modern web development."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://sociallift.com/services" />
+        <meta property="og:url" content="https://sociallift.co.in/services" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />

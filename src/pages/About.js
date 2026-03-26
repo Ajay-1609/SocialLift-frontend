@@ -8,7 +8,7 @@ function About() {
         <>
             <Helmet>
                 <title>About SocialLift | Digital Marketing Agency</title>
-
+                
                 <meta
                     name="description"
                     content="Learn about SocialLift, a digital marketing agency focused on innovation, growth strategies, performance marketing, and measurable results."
@@ -28,7 +28,7 @@ function About() {
                     content="Discover how SocialLift helps brands grow with innovative marketing strategies and data-driven campaigns."
                 />
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://sociallift.com/about" />
+                <meta property="og:url" content="https://sociallift.co.in" />
 
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />

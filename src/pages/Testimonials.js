@@ -85,7 +85,7 @@ function Testimonials() {
     <>
       <Helmet>
         <title>Client Testimonials | SocialLift</title>
-
+        <meta property="og:url" content="https://sociallift.co.in" />
         <meta
           name="description"
           content="Read real testimonials from clients who trusted SocialLift for digital marketing, social media campaigns, and brand growth."

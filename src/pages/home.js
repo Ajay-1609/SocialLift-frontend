@@ -10,6 +10,7 @@ function Home() {
     <>
       <Helmet>
         <title>SocialLift | Digital Marketing Agency</title>
+        <meta property="og:url" content="https://sociallift.co.in" />
       </Helmet>
 
       <FadeInSection>
