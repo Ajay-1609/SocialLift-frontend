@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
-// import { FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
-import { FaInstagram, FaFacebookF } from "react-icons/fa";
+import { FaInstagram} from "react-icons/fa";
 
 function Footer() {
   return (
