@@ -180,9 +180,8 @@ function Contact() {
                         value={formData[field]}
                         onChange={handleChange}
                         placeholder={field.charAt(0).toUpperCase() + field.slice(1)}
-                        className={`w-full px-4 py-3 rounded-xl border ${
-                          errors[field] ? "border-red-400" : "border-gray-300"
-                        } focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all`}
+                        className={`w-full px-4 py-3 rounded-xl border ${errors[field] ? "border-red-400" : "border-gray-300"
+                          } focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all`}
                       />
                     ) : (
                       <textarea
@@ -191,9 +190,8 @@ function Contact() {
                         value={formData.message}
                         onChange={handleChange}
                         placeholder="Message"
-                        className={`w-full px-4 py-3 rounded-xl border ${
-                          errors.message ? "border-red-400" : "border-gray-300"
-                        } focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all resize-none`}
+                        className={`w-full px-4 py-3 rounded-xl border ${errors.message ? "border-red-400" : "border-gray-300"
+                          } focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all resize-none`}
                       />
                     )}
 
@@ -207,9 +205,16 @@ function Contact() {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="w-full bg-primary text-black font-semibold py-3 rounded-xl shadow-md hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
+                  className="w-full bg-primary text-black font-semibold py-3 rounded-xl shadow-md hover:shadow-xl hover:scale-[1.02] transition-all duration-300 flex items-center justify-center gap-2"
                 >
-                  {loading ? "Sending..." : "Send Message →"}
+                  {loading ? (
+                    <>
+                      <span className="spinner"></span>
+                      Sending...
+                    </>
+                  ) : (
+                    "Send Message →"
+                  )}
                 </button>
 
               </form>
