@@ -14,8 +14,8 @@ function Home() {
       </Helmet>
 
       <FadeInSection>
-        <section className="bg-light min-h-screen flex items-center pt-24">
-          <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-16 sm:py-20 grid md:grid-cols-2 gap-12 items-center">
+        <section className="bg-light py-16 md:min-h-screen md:flex md:items-center">
+          <div className="max-w-7xl mx-auto px-5 md:px-8 py-16 md:py-24 grid md:grid-cols-2 gap-12 items-center">
 
             {/* LEFT SIDE */}
             <div>
